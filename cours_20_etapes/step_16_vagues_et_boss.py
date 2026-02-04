@@ -13,6 +13,16 @@
 # NOTE TEMPORAIRE:
 # - On reste en boucle \"infinie\" (pas encore d'ecran Victoire).
 
+# -------------------------------------------------------------------
+# CADRE PEDAGOGIQUE UNIFIE (Step 16 - Vagues + boss)
+# -------------------------------------------------------------------
+# POUR LE PROF / ELEVE:
+# - On garde: progression de niveau
+# - Nouvelle surcouche: paliers de difficulte (1 monstre, 2 monstres, boss)
+# - A retenir en priorite: les regles de progression peuvent dependre du niveau
+# - Le bloc EXERCICE GUIDE en fin de fichier reste la reference pratique.
+# -------------------------------------------------------------------
+
 import os
 import random
 import pygame

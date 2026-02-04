@@ -12,6 +12,16 @@
 # - Le gameplay est identique a l'etape precedente.
 # - On focus surtout sur la partie affichage.
 
+# -------------------------------------------------------------------
+# CADRE PEDAGOGIQUE UNIFIE (Step 14 - Sprites assets)
+# -------------------------------------------------------------------
+# POUR LE PROF / ELEVE:
+# - On garde: gameplay de l etape precedente
+# - Nouvelle surcouche: chargement d images externes avec fallback rectangle
+# - A retenir en priorite: on separe logique de jeu et rendu visuel
+# - Le bloc EXERCICE GUIDE en fin de fichier reste la reference pratique.
+# -------------------------------------------------------------------
+
 import os
 import random
 import pygame

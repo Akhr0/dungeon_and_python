@@ -12,6 +12,16 @@
 # NOTE TEMPORAIRE:
 # - Toujours pas d'ecran dedie Victoire / Game Over.
 
+# -------------------------------------------------------------------
+# CADRE PEDAGOGIQUE UNIFIE (Step 17 - Progression affinee)
+# -------------------------------------------------------------------
+# POUR LE PROF / ELEVE:
+# - On garde: vagues et boss
+# - Nouvelle surcouche: HUD plus complet et messages plus clairs
+# - A retenir en priorite: on affine lisibilite et confort sans changer le coeur du gameplay
+# - Le bloc EXERCICE GUIDE en fin de fichier reste la reference pratique.
+# -------------------------------------------------------------------
+
 import os
 import random
 import pygame

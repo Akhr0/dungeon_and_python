@@ -8,6 +8,16 @@
 # - Un monstre apparait et bloque une case.
 # - Pas d'IA pour l'instant (il ne bouge pas encore).
 
+# -------------------------------------------------------------------
+# CADRE PEDAGOGIQUE UNIFIE (Step 09 - Premier monstre)
+# -------------------------------------------------------------------
+# POUR LE PROF / ELEVE:
+# - On garde: coffre, mouvement, blocage
+# - Nouvelle surcouche: ajout d une entite monstre dans une liste de dictionnaires
+# - A retenir en priorite: on commence a gerer plusieurs objets de meme type
+# - Le bloc EXERCICE GUIDE en fin de fichier reste la reference pratique.
+# -------------------------------------------------------------------
+
 import random
 import pygame
 

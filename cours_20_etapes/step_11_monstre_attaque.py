@@ -8,6 +8,16 @@
 # - Si un monstre est adjacent au joueur, il retire des PV.
 # - Le monstre ne peut pas frapper a chaque frame (cooldown).
 
+# -------------------------------------------------------------------
+# CADRE PEDAGOGIQUE UNIFIE (Step 11 - Monstre attaque)
+# -------------------------------------------------------------------
+# POUR LE PROF / ELEVE:
+# - On garde: deplacement + IA simple
+# - Nouvelle surcouche: degats sur le joueur et cooldown d attaque
+# - A retenir en priorite: les cooldowns evitent des actions a chaque frame
+# - Le bloc EXERCICE GUIDE en fin de fichier reste la reference pratique.
+# -------------------------------------------------------------------
+
 import random
 import pygame
 

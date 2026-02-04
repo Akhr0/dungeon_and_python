@@ -19,6 +19,16 @@
 # - Pas de projectile
 # - Pas de niveau
 
+# -------------------------------------------------------------------
+# CADRE PEDAGOGIQUE UNIFIE (Step 06 - Mouvement grille)
+# -------------------------------------------------------------------
+# POUR LE PROF / ELEVE:
+# - On garde: variables, conditions, listes, fonctions, dictionnaires
+# - Nouvelle surcouche: assembler ces notions dans une base de jeu complete et lisible
+# - A retenir en priorite: on se deplace case par case et on bloque les cases interdites
+# - Le bloc EXERCICE GUIDE en fin de fichier reste la reference pratique.
+# -------------------------------------------------------------------
+
 import pygame
 
 # -------------------------------------------------------------------

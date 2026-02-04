@@ -9,6 +9,16 @@
 # - Les murs ne sont plus ecrits "a la main".
 # - On les genere au lancement du programme.
 
+# -------------------------------------------------------------------
+# CADRE PEDAGOGIQUE UNIFIE (Step 07 - Murs aleatoires)
+# -------------------------------------------------------------------
+# POUR LE PROF / ELEVE:
+# - On garde: base de mouvement du step 06
+# - Nouvelle surcouche: generation aleatoire avec random pour creer les murs automatiquement
+# - A retenir en priorite: meme logique de jeu, monde different a chaque lancement
+# - Le bloc EXERCICE GUIDE en fin de fichier reste la reference pratique.
+# -------------------------------------------------------------------
+
 import random
 import pygame
 

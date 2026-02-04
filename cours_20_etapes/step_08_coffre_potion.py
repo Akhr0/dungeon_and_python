@@ -10,6 +10,16 @@
 # - On ouvre le coffre avec E quand on est juste a cote.
 # - Le coffre soigne le joueur.
 
+# -------------------------------------------------------------------
+# CADRE PEDAGOGIQUE UNIFIE (Step 08 - Coffre + potion)
+# -------------------------------------------------------------------
+# POUR LE PROF / ELEVE:
+# - On garde: mouvement + murs aleatoires
+# - Nouvelle surcouche: interaction joueur avec la touche E et systeme de soin
+# - A retenir en priorite: une action se declenche seulement si la condition (adjacent) est vraie
+# - Le bloc EXERCICE GUIDE en fin de fichier reste la reference pratique.
+# -------------------------------------------------------------------
+
 import random
 import pygame
 

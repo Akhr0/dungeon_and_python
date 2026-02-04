@@ -11,6 +11,16 @@
 # NOTE TEMPORAIRE:
 # - Le code est encore long: on le polira a l'etape suivante.
 
+# -------------------------------------------------------------------
+# CADRE PEDAGOGIQUE UNIFIE (Step 18 - Game states)
+# -------------------------------------------------------------------
+# POUR LE PROF / ELEVE:
+# - On garde: progression complete jusqu au boss
+# - Nouvelle surcouche: etat global du jeu: play, game_over, win
+# - A retenir en priorite: un state machine simple clarifie les transitions d ecran
+# - Le bloc EXERCICE GUIDE en fin de fichier reste la reference pratique.
+# -------------------------------------------------------------------
+
 import os
 import random
 import pygame

@@ -29,6 +29,16 @@ Touches:
 - ESC: quitter
 """
 
+# -------------------------------------------------------------------
+# CADRE PEDAGOGIQUE UNIFIE (Step 19 - Pre final)
+# -------------------------------------------------------------------
+# POUR LE PROF / ELEVE:
+# - On garde: tout le pipeline gameplay
+# - Nouvelle surcouche: integration complete en repetition generale
+# - A retenir en priorite: on valide les regles avant la version finale
+# - Le bloc EXERCICE GUIDE en fin de fichier reste la reference pratique.
+# -------------------------------------------------------------------
+
 import os
 import random
 import sys

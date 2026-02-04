@@ -42,3 +42,59 @@ Regle d'ecriture:
 - Step 05:
   - dictionnaires `{}` (cles/valeurs)
   - lecture/modification via `dico["cle"]`
+
+- Step 06:
+  - assemblage des notions de base dans une boucle de jeu complete
+  - collisions simples (murs + limites)
+
+- Step 07:
+  - generation aleatoire (`random`)
+  - monde variable au lancement
+
+- Step 08:
+  - interaction joueur (touche d action)
+  - soin via coffre
+
+- Step 09:
+  - premiere entite monstre
+  - liste de dictionnaires pour gerer plusieurs entites
+
+- Step 10:
+  - IA simple: approche joueur sinon deplacement aleatoire
+
+- Step 11:
+  - degats
+  - cooldown d attaque
+
+- Step 12:
+  - projectiles
+  - mise a jour d une liste dynamique + collisions
+
+- Step 13:
+  - feedback visuel (rotation directionnelle + flash degats)
+
+- Step 14:
+  - chargement d assets image
+  - fallback si fichier image absent
+
+- Step 15:
+  - progression par niveaux
+  - regeneration de l etat de niveau
+
+- Step 16:
+  - paliers de difficulte
+  - boss niveau 10
+
+- Step 17:
+  - lisibilite HUD et messages de progression
+
+- Step 18:
+  - etats globaux de jeu (`play`, `game_over`, `win`)
+
+- Step 19:
+  - integration complete (pre-final)
+  - validation de toutes les regles
+
+- Step 20:
+  - version finale de reference
+  - base pour futur refactoring en plusieurs fichiers

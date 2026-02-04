@@ -10,6 +10,16 @@
 # - Les projectiles blessent les monstres.
 # - Un monstre peut mourir (alive=False).
 
+# -------------------------------------------------------------------
+# CADRE PEDAGOGIQUE UNIFIE (Step 12 - Projectiles)
+# -------------------------------------------------------------------
+# POUR LE PROF / ELEVE:
+# - On garde: combat de base monstre vs joueur
+# - Nouvelle surcouche: attaque du joueur avec une liste de projectiles et collisions
+# - A retenir en priorite: on met a jour chaque projectile a chaque frame
+# - Le bloc EXERCICE GUIDE en fin de fichier reste la reference pratique.
+# -------------------------------------------------------------------
+
 import random
 import pygame
 

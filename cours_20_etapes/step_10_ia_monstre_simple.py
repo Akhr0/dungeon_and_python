@@ -10,6 +10,16 @@
 # - Pas encore d'attaque joueur
 # - Pas encore de projectile
 
+# -------------------------------------------------------------------
+# CADRE PEDAGOGIQUE UNIFIE (Step 10 - IA simple)
+# -------------------------------------------------------------------
+# POUR LE PROF / ELEVE:
+# - On garde: monstre present dans la scene
+# - Nouvelle surcouche: comportement automatique: se rapprocher du joueur sinon pas aleatoire
+# - A retenir en priorite: une IA simple peut etre lisible sans algorithme complexe
+# - Le bloc EXERCICE GUIDE en fin de fichier reste la reference pratique.
+# -------------------------------------------------------------------
+
 import random
 import pygame
 

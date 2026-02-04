@@ -92,6 +92,7 @@ python main.py
 - `main.py` : jeu principal
 - `cours_20_etapes/` : progression complete du cours
 - `cours_20_etapes/JOURNAL_NOTIONS.md` : suivi des notions deja introduites
+- `fiches_eleves/` : fiches imprimables step par step (00 -> 20)
 - `assets/` : images du mage, slime, gobelin
 - `requirements.txt` : dependances Python
 - `setup_mac.sh`, `setup_linux.sh`, `setup_windows.ps1` : scripts d'installation

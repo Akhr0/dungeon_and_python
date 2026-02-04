@@ -29,6 +29,16 @@ Touches:
 - ESC: quitter
 """
 
+# -------------------------------------------------------------------
+# CADRE PEDAGOGIQUE UNIFIE (Step 20 - Jeu final)
+# -------------------------------------------------------------------
+# POUR LE PROF / ELEVE:
+# - On garde: integration complete du step 19
+# - Nouvelle surcouche: version finale de reference pour le cours
+# - A retenir en priorite: base stable pour refactoriser ensuite en plusieurs fichiers
+# - Le bloc EXERCICE GUIDE en fin de fichier reste la reference pratique.
+# -------------------------------------------------------------------
+
 import os
 import random
 import sys

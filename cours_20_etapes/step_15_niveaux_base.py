@@ -11,6 +11,16 @@
 # NOTE TEMPORAIRE:
 # - Pas encore de condition de victoire/defaite finale (ca vient ensuite).
 
+# -------------------------------------------------------------------
+# CADRE PEDAGOGIQUE UNIFIE (Step 15 - Niveaux base)
+# -------------------------------------------------------------------
+# POUR LE PROF / ELEVE:
+# - On garde: combat complet et sprites
+# - Nouvelle surcouche: progression de niveau quand tous les monstres sont morts
+# - A retenir en priorite: un niveau reconstruit murs monstres coffre et message
+# - Le bloc EXERCICE GUIDE en fin de fichier reste la reference pratique.
+# -------------------------------------------------------------------
+
 import os
 import random
 import pygame

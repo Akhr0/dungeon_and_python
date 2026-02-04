@@ -11,6 +11,16 @@
 # NOTE TEMPORAIRE:
 # - On dessine encore des rectangles (pas de sprites image).
 
+# -------------------------------------------------------------------
+# CADRE PEDAGOGIQUE UNIFIE (Step 13 - Rotation + flash)
+# -------------------------------------------------------------------
+# POUR LE PROF / ELEVE:
+# - On garde: systeme de combat avec projectiles
+# - Nouvelle surcouche: feedback visuel directionnel et clignotement rouge sur degats
+# - A retenir en priorite: un bon feedback rend le jeu plus lisible pour le joueur
+# - Le bloc EXERCICE GUIDE en fin de fichier reste la reference pratique.
+# -------------------------------------------------------------------
+
 import random
 import pygame
 
