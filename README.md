@@ -17,9 +17,47 @@ Option B: Download ZIP depuis GitHub, puis dezipper le dossier.
 
 ---
 
-## 2) Installation ultra simple (1 commande de setup)
+## 2) Installer Python (via l'installeur officiel, sans Homebrew)
 
-Prerequis: Python installe sur la machine (idealement Python 3.11+).
+Ouvre le terminal dans VS Code (menu `Terminal` → `New Terminal`) puis suis **exactement** les etapes de ton OS.
+
+### macOS
+1. Va sur `python.org` → `Downloads` → macOS.
+2. Telecharge l'installeur `.pkg` le plus recent.
+3. Double-clique, puis suis l'assistant.
+4. Verifie dans le terminal VS Code:
+```bash
+python3 --version
+```
+
+### Windows
+1. Va sur `python.org` → `Downloads` → Windows.
+2. Telecharge l'installeur `.exe` le plus recent (64-bit).
+3. Lance l'installeur et **coche "Add Python to PATH"**.
+4. Verifie dans le terminal VS Code:
+```powershell
+python --version
+```
+
+### Linux (Ubuntu/Debian)
+```bash
+sudo apt update
+sudo apt install python3 python3-venv python3-pip
+```
+
+Verifier l'installation:
+```bash
+python --version
+```
+
+Si `python` ne fonctionne pas, essaye:
+```bash
+python3 --version
+```
+
+---
+
+## 3) Installation ultra simple (1 commande de setup)
 
 ### macOS
 ```bash
@@ -44,7 +82,7 @@ Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
 
 ---
 
-## 3) Activer l'environnement virtuel
+## 4) Activer l'environnement virtuel
 
 ### macOS / Linux
 ```bash
@@ -58,7 +96,7 @@ source .venv/bin/activate
 
 ---
 
-## 4) Lancer les scripts
+## 5) Lancer les scripts
 
 Premier cours:
 ```bash
@@ -77,7 +115,7 @@ python main.py
 
 ---
 
-## 5) Workflow eleve conseille
+## 6) Workflow eleve conseille
 
 1. Lancer une etape (ex: `step_03_listes.py`)
 2. Lire le code commente
@@ -87,7 +125,7 @@ python main.py
 
 ---
 
-## 6) Structure du projet
+## 7) Structure du projet
 
 - `main.py` : jeu principal
 - `cours_20_etapes/` : progression complete du cours
@@ -99,7 +137,7 @@ python main.py
 
 ---
 
-## 7) Depannage rapide
+## 8) Depannage rapide
 
 ### Erreur: `ModuleNotFoundError: No module named 'pygame'`
 Tu n'es pas dans le bon environnement.
@@ -115,7 +153,7 @@ python -m pip install -r requirements.txt
 
 ---
 
-## 8) Commandes en jeu
+## 9) Commandes en jeu
 
 - Fleches ou ZQSD: deplacement
 - Espace: attaque / projectile
